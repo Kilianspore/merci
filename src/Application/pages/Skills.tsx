@@ -66,7 +66,6 @@ const Skills = () => {
     { imageSrc: c3_6},
   ];
 
-  const [, setCarouselGoToNumber] = useAtom(store.carouselGoToNumber);
 
   return (
     <div className="component skills" data-testid='skills-component'>
