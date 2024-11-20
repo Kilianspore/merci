@@ -1,13 +1,11 @@
 import React from 'react';
 import mailI from '../../img/icons/mail.svg';
-import githubI from '../../img/icons/github.svg';
 import linkedInI from '../../img/icons/linkedin.svg';
 
 const Socials = () => {
   const socialsList = [
-    { url: "mailto:mathieu.antunes31@gmail.com", imageSrc: mailI},
-    { url: "https://github.com/Malachite01", imageSrc: githubI},
-    { url: "https://www.linkedin.com/in/antunesmathieu/", imageSrc: linkedInI},
+    { url: "mailto:kilian.spore@gmail.com", imageSrc: mailI},
+    { url: "https://www.linkedin.com/in/kilian-boivert-ab57aa265/", imageSrc: linkedInI},
   ];
 
   return (

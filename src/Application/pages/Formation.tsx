@@ -1,14 +1,14 @@
 import React from "react";
 
-import iut from "../../img/formation/iut.webp";
+import iut_b from "../../img/formation/iut_b.webp";
 import lycee from "../../img/formation/lycee.webp";
 import dashed from "../../img/dashed.svg";
 
 const Formation = () => {
   const formationsList = [
-    { url: "https://iut.univ-tlse3.fr/bachelor-specialite-informatique", imageSrc: iut, annee: "IUT Informatique Paul Sabatier - 2024", diplome: "Bachelor Universitaire de Technologie (BUT)", description : "Spécialité développement d'applications communicantes et sécurisées", mention: "En cours d'obtention"},
-    { url: "https://www.insee.fr/fr/metadonnees/definition/c2151", imageSrc: iut, annee: "IUT Informatique Paul Sabatier - 2023", diplome: "Diplôme Universitaire de Technologie (DUT)", description : "Spécialité développement d'applications communicantes et sécurisées", mention: "Mention 'Bien'"},
-    { url: "#", imageSrc: lycee, annee: "Lycée Général Vincent Auriol - 2021", diplome: "Baccalauréat Général", description : "Spécialités Mathématiques et Physique-Chimie, options Mathématiques expertes et Classe européenne.", mention: "Mention 'Bien'"},
+    { url: "https://www.iut-blagnac.fr/fr/formations/but-informatique", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2025", diplome: "Bachelor Universitaire de Technologie (BUT)", description : "Spécialité développement d'applications communicantes et sécurisées", mention: "En cours d'obtention"},
+    { url: "https://www.insee.fr/fr/metadonnees/definition/c2151", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2024", diplome: "Diplôme Universitaire de Technologie (DUT)", description : "Spécialité développement d'applications communicantes et sécurisées"},
+    { url: "#", imageSrc: lycee, annee: "Lycée Général Pierre Bourdieu - 2022", diplome: "Baccalauréat Général", description : "Spécialités Mathématiques et Numériques, Sciences Informatiques.", mention: "Mention 'Bien'"},
   ];
 
   return (

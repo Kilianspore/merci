@@ -40,30 +40,30 @@ const Skills = () => {
   ];
 
   const row1 = [
-    { imageSrc: c1_1, onClick: "#transfertAndroid", projectNumber: "1"},
-    { imageSrc: c1_2, onClick: "#transfertAndroid", projectNumber: "1"},
-    { imageSrc: c1_3, onClick: "#infra", projectNumber: "6"},
-    { imageSrc: c1_4, onClick: "#deezer", projectNumber: "3"},
-    { imageSrc: c1_5, onClick: "#grafana", projectNumber: ""},
-    { imageSrc: c1_6, onClick: "#triso21", projectNumber: "5"},
+    { imageSrc: c1_1},
+    { imageSrc: c1_2},
+    { imageSrc: c1_3},  
+    { imageSrc: c1_4},
+    { imageSrc: c1_5},
+    { imageSrc: c1_6},
   ];
 
   const row2 = [
-    { imageSrc: c2_1, onClick: "#transfertAndroid", projectNumber: "1"},
-    { imageSrc: c2_2, onClick: "#noise", projectNumber: "7"},
-    { imageSrc: c2_3, onClick: "#infra", projectNumber: "6"},
-    { imageSrc: c2_4, onClick: "#deezer", projectNumber: "3"},
-    { imageSrc: c2_5, onClick: "#grafana", projectNumber: ""},
-    { imageSrc: c2_6, onClick: "#triso21", projectNumber: "5"},
+    { imageSrc: c2_1},
+    { imageSrc: c2_2},
+    { imageSrc: c2_3},
+    { imageSrc: c2_4},
+    { imageSrc: c2_5},
+    { imageSrc: c2_6},
   ];
 
   const row3 = [
-    { imageSrc: c3_1, onClick: "#triso21", projectNumber: "5"},
-    { imageSrc: "", onClick: "", projectNumber: ""},
-    { imageSrc: c3_3, onClick: "#infra", projectNumber: "6"},
-    { imageSrc: "", onClick: "", projectNumber: ""},
-    { imageSrc: "", onClick: "", projectNumber: ""},
-    { imageSrc: c3_6, onClick: "#infra", projectNumber: "6"},
+    { imageSrc: c3_1},
+    { imageSrc: ""},
+    { imageSrc: c3_3},
+    { imageSrc: ""},
+    { imageSrc: ""},
+    { imageSrc: c3_6},
   ];
 
   const [, setCarouselGoToNumber] = useAtom(store.carouselGoToNumber);
@@ -71,15 +71,14 @@ const Skills = () => {
   return (
     <div className="component skills" data-testid='skills-component'>
       <div className="title-container">
-        <h1 className="title" id="skills">Competences</h1>
+        <h1 className="title" id="skills">Compétences</h1>
         <div className="title-separator"></div>
       </div>
-      <p className="skills-intro-phrase">Durant ma formation a l'IUT Informatique Paul Sabatier, voici les compétences que j'ai acquises (cf <a target="_blank" rel="noreferrer" href="https://www.enseignementsup-recherche.gouv.fr/sites/default/files/annexe-2-licence-professionnelle-bachelor-universitaire-de-technologie-informatique-29016.pdf">Programme national informatique, page 28</a>) : </p>
+      <p className="skills-intro-phrase">Durant ma formation a l'IUT Informatique de Blagnac, voici les compétences que j'ai pu acquérir (cf <a target="_blank" rel="noreferrer" href="https://www.enseignementsup-recherche.gouv.fr/sites/default/files/annexe-2-licence-professionnelle-bachelor-universitaire-de-technologie-informatique-29016.pdf">Programme national informatique, page 28</a>) : </p>
 
       <div className="skills-bottom-container">
         <div id="skills-table-container">
           <table className="skills-table">
-            <caption>Cliquez sur une compétence pour voir un projet associé ! </caption>
             <thead>
               <tr>
                 {titles.map((title, index) => (
@@ -92,8 +91,8 @@ const Skills = () => {
             <tbody>
               <tr>
                 {row1.map((row, index) => (
-                  <td key={index} onClick={()=>{setCarouselGoToNumber(row.projectNumber);}}>
-                    <AnchorLink href={row.onClick}>
+                  <td >
+                    <AnchorLink >
                       <img src={row.imageSrc} alt={row.imageSrc}/>
                     </AnchorLink>
                   </td>
@@ -101,8 +100,8 @@ const Skills = () => {
               </tr>
               <tr>
                 {row2.map((row, index) => (
-                  <td key={index} onClick={()=>{setCarouselGoToNumber(row.projectNumber);}}>
-                    <AnchorLink href={row.onClick}>
+                  <td  >
+                    <AnchorLink >
                       <img src={row.imageSrc} alt={row.imageSrc}/>
                     </AnchorLink>
                   </td>
@@ -110,8 +109,8 @@ const Skills = () => {
               </tr>
               <tr>
                 {row3.map((row, index) => (
-                  <td key={index} onClick={()=>{setCarouselGoToNumber(row.projectNumber);}}>
-                    <AnchorLink href={row.onClick}>
+                  <td >
+                    <AnchorLink>
                       {row.imageSrc !== "" && <img src={row.imageSrc} alt={row.imageSrc}/> }
                     </AnchorLink>
                   </td>
@@ -123,6 +122,7 @@ const Skills = () => {
 
 
         <Techno/>
+
       </div>
     </div>
   );

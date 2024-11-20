@@ -2,7 +2,7 @@ import React from 'react';
 
 const Techno = () => {
   const iconList = [
-    "nodejs", "react", "electron", "c", "cs", "go", "docker", "kubernetes", "linux", "grafana", "py", "blender", "unity", "androidstudio", "html", "css", "js", "php", "postman", "mysql", "java", "latex", "ps"
+    "c", "docker", "linux",  "py","androidstudio", "html", "css", "js", "php", "mysql", "java", "ps"
   ];
   
   return (

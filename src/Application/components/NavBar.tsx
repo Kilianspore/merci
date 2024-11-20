@@ -39,7 +39,7 @@ const NavBar = () => {
   }, [isOpen]);
 
   useEffect(() => {
-    const sections = ['home', 'skills', 'formations', 'experiences', 'projects', 'contact'];
+    const sections = ['home', 'skills', 'formations', 'experiences', 'contact'];
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -101,12 +101,6 @@ const NavBar = () => {
                 href="#experiences" 
                 className={'nav-link' + (selectedItem === 'experiences' ? ' selected' : '')} 
               > Experiences
-              </AnchorLink></li>
-            <li>
-              <AnchorLink 
-                href="#projects" 
-                className={'nav-link' + (selectedItem === 'projects' ? ' selected' : '')}
-              > Projets
               </AnchorLink></li>
             <li>
               <AnchorLink 
