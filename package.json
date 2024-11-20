@@ -1,9 +1,10 @@
 {
-  "name": "@portfolio/mathieu-antunes",
+  "name": "@portfolio/kilian-boivert",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Kilianspore.github.io/portfolio",
   "dependencies": {
+    "@portfolio/kilian-boivert": "file:",
     "@portfolio/mathieu-antunes": "file:",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
