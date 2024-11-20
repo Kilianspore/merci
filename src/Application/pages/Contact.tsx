@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Socials from "../components/Socials";
 import { useForm, ValidationError } from '@formspree/react';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 
 import refractor1 from '../../img/refractor/refractor (1).png';
 import refractor2 from '../../img/refractor/refractor (2).png';

@@ -1,4 +1,3 @@
-import React from "react";
 import focus from "../../img/skills/focus.webp";
 import ginger from "../../img/skills/ginger.webp";
 import location from "../../img/location.svg";

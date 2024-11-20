@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./Home";
 import Formation from "./Formation";
 import Experiences from "./Experiences";
