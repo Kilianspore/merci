@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/merci/static/css/main.90575746.css",
-    "main.js": "/merci/static/js/main.1b23dd63.js",
+    "main.js": "/merci/static/js/main.34e905b4.js",
     "static/js/453.0542247d.chunk.js": "/merci/static/js/453.0542247d.chunk.js",
     "static/media/Playfair-Italic.ttf": "/merci/static/media/Playfair-Italic.2e38efce0349bc24b049.ttf",
     "static/media/Playfair.ttf": "/merci/static/media/Playfair.01893c39cd1a403ef0a5.ttf",
@@ -20,7 +20,7 @@
     "static/media/c2_2.png": "/merci/static/media/c2_2.b0ea89a0dcc0cee11f6a.png",
     "static/media/c3_1.png": "/merci/static/media/c3_1.f92eef367a6fa0f2d2d8.png",
     "static/media/c3_3.png": "/merci/static/media/c3_3.b052c32b9acf4a931444.png",
-    "static/media/mail.svg": "/merci/static/media/mail.8afabd2868ac6ec0122be21e3e89d58f.svg",
+    "static/media/mail.svg": "/merci/static/media/mail.b6f498dfc536228814cba57d873432ce.svg",
     "index.html": "/merci/index.html",
     "static/media/send.svg": "/merci/static/media/send.245bc4dab14cc329260be2421a81f8c4.svg",
     "static/media/download.svg": "/merci/static/media/download.e0fd472390403df1e2df8dd612a3f763.svg",
@@ -29,11 +29,11 @@
     "static/media/wave.svg": "/merci/static/media/wave.768278663c1a68c450c7b26c972ad22f.svg",
     "static/media/expand.svg": "/merci/static/media/expand.730839144c126385607bf09f84d35c4f.svg",
     "main.90575746.css.map": "/merci/static/css/main.90575746.css.map",
-    "main.1b23dd63.js.map": "/merci/static/js/main.1b23dd63.js.map",
+    "main.34e905b4.js.map": "/merci/static/js/main.34e905b4.js.map",
     "453.0542247d.chunk.js.map": "/merci/static/js/453.0542247d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90575746.css",
-    "static/js/main.1b23dd63.js"
+    "static/js/main.34e905b4.js"
   ]
 }
