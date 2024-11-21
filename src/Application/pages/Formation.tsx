@@ -6,8 +6,8 @@ import dashed from "../../img/dashed.svg";
 
 const Formation = () => {
   const formationsList = [
-    { url: "https://www.iut-blagnac.fr/fr/formations/but-informatique", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2025", diplome: "Bachelor Universitaire de Technologie (BUT)", description : "Spécialité développement d'applications communicantes et sécurisées", mention: "En cours d'obtention"},
-    { url: "https://www.insee.fr/fr/metadonnees/definition/c2151", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2024", diplome: "Diplôme Universitaire de Technologie (DUT)", description : "Spécialité développement d'applications communicantes et sécurisées"},
+    { url: "https://www.iut-blagnac.fr/fr/formations/but-informatique", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2025", diplome: "Bachelor Universitaire de Technologie (BUT)", description : "Spécialité réalisation d'applications", mention: "En cours d'obtention"},
+    { url: "https://www.insee.fr/fr/metadonnees/definition/c2151", imageSrc: iut_b, annee: "IUT Informatique Blagnac - 2024", diplome: "Diplôme Universitaire de Technologie (DUT)", description : "Spécialité réalisation d'applications"},
     { url: "#", imageSrc: lycee, annee: "Lycée Général Pierre Bourdieu - 2022", diplome: "Baccalauréat Général", description : "Spécialités Mathématiques et Numériques, Sciences Informatiques.", mention: "Mention 'Bien'"},
   ];
 
